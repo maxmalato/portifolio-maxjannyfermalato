@@ -1,0 +1,118 @@
+{
+    "name": "Maxjannyfer Segtowyck Malato",
+    "birthdate": "06/08/1993",
+    "address": "Av 01, Qda 03 - Cond. Village La Belle - Paço do Lumiar - MA",
+    "phone": ["(98) 99235-2127", "(98) 99244-6522"],
+    "email": "max.malato@hotmail.com",
+    "linkedin": "https://www.linkedin.com/in/maxmalato/",
+    "portfolio": "https://maxmalato.netlify.app/",
+    "github": "https://github.com/maxmalato",
+    "summary": "Profissional de TI com mais de 6 anos de experiência em suporte técnico, e em transição para o desenvolvimento Front-end Júnior focado em React. Experiência com JavaScript, React, Next.js, Node.js, TailwindCSS, ShadcnUI e MongoDB. Conhecimento em criação de APIs REST, autenticação JWT e desenvolvimento de interfaces intuitivas. Atualmente, atuo em consultas no banco de dados SQL Server no ambiente de homologação.",
+    "skills": {
+      "hardSkills": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "React",
+        "Next.js",
+        "Node.js",
+        "TailwindCSS",
+        "Bootstrap",
+        "MongoDB",
+        "Prisma",
+        "Git",
+        "MySQL",
+        "SQL Server",
+        "Microsoft SQL Server"
+      ],
+      "softSkills": [
+        "Organização",
+        "Atenção a detalhes",
+        "Trabalho colaborativo",
+        "Resolução de problemas",
+        "Capacidade analítica",
+        "Comunicação com clientes",
+        "Agilidade",
+        "Empatia"
+      ]
+    },
+    "experience": [
+      {
+        "position": "Analista de TI",
+        "company": "VIP Leilões",
+        "start_date": "02/2019",
+        "end_date": "atualmente",
+        "responsibilities": "Suporte sistêmico em diversas unidades. Análise, criação e gestão de dados relacionados a pátios, comitentes, funcionários e clientes. Gerenciamento de chamados através de Teams, WhatsApp, e-mail e Lecom"
+      },
+      {
+        "position": "Analista de Suporte Técnico",
+        "company": "Dr. SuporTI",
+        "start_date": "10/2017",
+        "end_date": "02/2019",
+        "responsibilities": "Suporte técnico presencial e remoto. Configuração de computadores, impressoras e redes corporativas. Administração básica de servidores Windows Server"
+      }
+    ],
+    "education": [
+      {
+        "degree": "Pós-graduação em Desenvolvimento Full Stack",
+        "institution": "Faculdade Descomplica",
+        "completion_year": 2024
+      },
+      {
+        "degree": "CST em Redes de Computadores",
+        "institution": "Faculdade Pitágoras do Maranhão",
+        "completion_year": 2019
+      }
+    ],
+    "courses": [
+      {
+        "name": "Montagem e Manutenção de Computadores",
+        "institution": "Senai",
+        "year": 2016
+      },
+      {
+        "name": "Administração de Redes",
+        "institution": "Senac/MA",
+        "year": 2015
+      }
+    ],
+    "projects": [
+      {
+        "title": "Gallery",
+        "description": "Buscar imagens e salvar fotos favoritas de forma prática e personalizada.",
+        "demoLink": "https://gallery-maxmalato.netlify.app/",
+        "codeLink": "https://github.com/maxmalato/desafio-galeria-de-imagem-frontendfusion",
+        "hardSkills": ["JavaScript", "React", "TailwindCSS"]
+      },
+      {
+        "title": "Loggie",
+        "description": "Cadastrar usuários com autenticação e acesso restrito a usuários registrados.",
+        "demoLink": "https://app-loggie.onrender.com/",
+        "codeLink": "https://github.com/maxmalato/app-loggie",
+        "hardSkills": ["JavaScript", "React", "TailwindCSS", "Axios"]
+      },
+      {
+        "title": "Cadastro de Usuário",
+        "description": "Cadastro de usuário com nome, e-mail e idade no banco de dados.",
+        "demoLink": "https://app-cadastro-usuario.netlify.app/",
+        "codeLink": "https://github.com/maxmalato/cadastro-usuario",
+        "hardSkills": [
+          "JavaScript",
+          "React",
+          "Node.js",
+          "Axios",
+          "Prisma",
+          "Express"
+        ]
+      },
+      {
+        "title": "Previsão do Tempo",
+        "description": "Pesquise sobre sua cidade para saber como está o seu clima em tempo real.",
+        "demoLink": "https://maxmalato.github.io/previsao-tempo/",
+        "codeLink": "https://github.com/maxmalato/previsao-tempo",
+        "hardSkills": ["HTML5", "CSS3", "JavaScript"]
+      }
+    ],
+    "contact": "Você pode entrar em contato pelo e-mail max.malato@hotmail.com ou pelos telefones (98) 99235-2127 / (98) 99244-6522."
+  }
+  

@@ -1,0 +1,27 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: .625rem;
+  text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: "Inter", sans-serif;
+}
+
+.icon-hard {
+  font-size: 3.75rem;
+  border: .0625rem solid #f54a00;
+  padding: .25rem;
+  border-radius: .3125rem;
+}
+
+.icon-soft {
+  padding: .25rem;
+  border-radius: .3125rem;
+  border: .0625rem solid #f54a00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
