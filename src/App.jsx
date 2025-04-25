@@ -1,6 +1,6 @@
 import './App.css'
 import AboutMe from './components/AboutMe'
-import ChatBot from './components/Chatbot'
+import FeedbackList from './components/FeedbackList'
 import Footer from './components/Footer'
 import HardSkill from './components/HardSkill'
 import Header from './components/Header'
@@ -11,17 +11,17 @@ import SoftSkill from './components/SoftSkill'
 
 function App() {
   return (
-    <>
+    <div id="home">
       <Navbar/>
       <Header/>
       <SocialLinks/>
-      <ChatBot/>
       <AboutMe/>
       <HardSkill/>
       <SoftSkill/>
       <Projects/>
+      <FeedbackList/>
       <Footer/>
-    </>
+    </div>
   )
 }
 

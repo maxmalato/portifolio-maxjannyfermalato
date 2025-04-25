@@ -8,9 +8,9 @@ export default function ThemeToggle() {
   return (
     <button
       onClick={toggleTheme}
-      className="px-4 py-2 rounded bg-gray-300 dark:bg-gray-700 text-black dark:text-white"
+      className="text-black dark:text-white cursor-pointer"
     >
-      {isDark ? <i class='bx bxs-sun'></i> : <i class='bx bxs-moon'></i>}
+      {isDark ? <i class='bx bxs-sun bx-sm bx-tada-hover'></i> : <i class='bx bxs-moon bx-sm bx-tada-hover'></i>}
     </button>
   );
 }

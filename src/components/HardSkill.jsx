@@ -7,7 +7,7 @@ const HardSkill = () => {
         <h3 className="text-orange-600 text-lg font-semibold drop-shadow-md lg:text-right">
           Habilidades tecnológicas
         </h3>
-        <div className="flex flex-wrap gap-2 justify-center mt-5 lg:justify-end lg:border-r-4 lg:pr-4 transition hover:border-orange-600">
+        <div className="flex flex-wrap gap-2 justify-center mt-5 lg:justify-end lg:border-r-4 lg:pr-4 transition hover:border-orange-600 lg:dark:border-slate-100">
           <i className="devicon-html5-plain-wordmark colored icon-hard"></i>
           <i className="devicon-css3-plain-wordmark colored icon-hard"></i>
           <i className="devicon-typescript-plain colored icon-hard"></i>
