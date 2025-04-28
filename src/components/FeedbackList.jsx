@@ -21,7 +21,7 @@ const FeedbackList = () => {
             setEditingFeedback(feedback);
             formRef.current.scrollIntoView({ behavior: "smooth" });
         } else {
-            toast.error("Você não tem permissão para editar esse feedback.");
+            toast.error("Você não tem permissão para editar esse comentário.");
         }
     };
 

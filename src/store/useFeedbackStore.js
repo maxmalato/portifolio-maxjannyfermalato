@@ -38,11 +38,13 @@ export const useFeedbackStore = create((set, get) => {
             } catch (error) {
                 console.error("Erro ao adicionar feedback", error);
             }
+
+            toast.success("Comentário adicionado com sucesso!");
         },
 
         editFeedback: async (updatedFeedback) => {
             if (initialUserId !== updatedFeedback.userId) {
-                toast.error("Você não tem permissão para editar esse feedback.");
+                toast.error("Você não tem permissão para editar esse comentário.");
                 return;
             }
 
@@ -65,12 +67,14 @@ export const useFeedbackStore = create((set, get) => {
             } catch (error) {
                 console.error("Erro ao editar feedback", error);
             }
+            
+            toast.success("Comentário editado com sucesso!");
         },
 
         deleteFeedback: async (feedbackId) => {
             const isFeedbackOwner = (get().feedbacks.find((f) => f.id === feedbackId)?.userId === initialUserId);
             if (!isFeedbackOwner) {
-                toast.error("Você não tem permissão para deletar esse feedback.");
+                toast.error("Você não tem permissão para excluir esse comentário.");
                 return;
             }
 
@@ -90,6 +94,8 @@ export const useFeedbackStore = create((set, get) => {
             } catch (error) {
                 console.error("Erro ao deletar feedback", error);
             }
+
+            toast.success("Comentário excluído com sucesso!");
         },
     };
 });

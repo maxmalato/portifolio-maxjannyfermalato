@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import { useFeedbackStore } from "../store/useFeedbackStore";
-import { toast } from "react-hot-toast";
 
 const FeedbackForm = ({ editingFeedback, setEditingFeedback }) => {
     const [name, setName] = useState("");
@@ -28,8 +27,6 @@ const FeedbackForm = ({ editingFeedback, setEditingFeedback }) => {
         } else {
             addFeedback({ name, comment });
         }
-
-        toast.success("Comentário criado com sucesso!")
 
         setName("");
         setComment("");
