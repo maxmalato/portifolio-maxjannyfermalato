@@ -1,14 +1,27 @@
+import signatureImage from "../assets/images/signature.png";
 import loggieImage from "../assets/images/loggie.jpg";
 import cadastroUsuarioImage from "../assets/images/cadastro-usuario.png";
 import previsaTempoImage from "../assets/images/previsao-tempo.png";
-import gallery from "../assets/images/gallery.png";
-import monti from "../assets/images/monti.png";
+import galleryImage from "../assets/images/gallery.png";
+import montiImage from "../assets/images/monti.png";
 
 const projects = [
     {
+        title: "Assinatura Digital",
+        description: "Crie uma assinatura digital para o seu e-mail.",
+        image: signatureImage,
+        demoLink: "https://assinatura-digital.netlify.app/",
+        codeLink: "https://github.com/maxmalato/assinatura-digital",
+        HardSkills: [
+            { icon: "devicon-javascript-plain colored" },
+            { icon: "devicon-react-original colored" },
+            { icon: "devicon-tailwindcss-original colored" },
+        ],
+    },
+    {
         title: "Monti.",
         description: "Uma loja virtual simples, mas com grandes recursos.",
-        image: monti,
+        image: montiImage,
         demoLink: "https://monti-ecommerce.vercel.app/",
         codeLink: "https://github.com/maxmalato/monti",
         HardSkills: [
@@ -20,7 +33,7 @@ const projects = [
     {
         title: "Gallery",
         description: "Buscar imagens e salvar fotos favoritas de forma prática e personalizada.",
-        image: gallery,
+        image: galleryImage,
         demoLink: "https://gallery-maxmalato.netlify.app/",
         codeLink: "https://github.com/maxmalato/desafio-galeria-de-imagem-frontendfusion",
         HardSkills: [
