@@ -119,7 +119,7 @@ const ProjectCard = ({ title, description, image, demoLink, codeLink, HardSkills
                     <ul className="flex justify-center gap-3 p-2">
                         {HardSkills && HardSkills.map((skill, index) => (
                             <div key={index} className="my-2">
-                                <i className={`${skill.icon} text-2xl dark:bg-amber-50 border p-1 rounded-md`}></i>
+                                <i className={`${skill.icon} text-2xl dark:bg-white border p-1 rounded-md`}></i>
                             </div>
                         ))}
                     </ul>

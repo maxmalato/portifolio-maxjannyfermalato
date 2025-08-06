@@ -8,16 +8,16 @@ const HardSkill = () => {
         Habilidades tecnológicas
       </h3>
       <div className="flex flex-wrap gap-2 justify-center mt-5 lg:justify-end lg:border-r-4 lg:pr-4 transition hover:border-orange-600 lg:dark:border-slate-100">
-        <i class="devicon-csharp-plain-wordmark colored icon-hard dark:bg-amber-50"></i>
-        <i class="devicon-dotnetcore-plain colored icon-hard dark:bg-amber-50"></i>
-        <i className="devicon-react-plain colored icon-hard dark:bg-amber-50"></i>
-        <i className="devicon-nextjs-original-wordmark icon-hard dark:bg-amber-50"></i>
-        <i className="devicon-tailwindcss-original colored icon-hard dark:bg-amber-50"></i>
-        <i class="devicon-bootstrap-plain colored icon-hard dark:bg-amber-50"></i>
-        <i className="devicon-microsoftsqlserver-plain-wordmark colored icon-hard dark:bg-amber-50"></i>
-        <i className="devicon-postgresql-plain-wordmark colored icon-hard dark:bg-amber-50"></i>
-        <i className="devicon-github-original-wordmark colored icon-hard dark:bg-amber-50"></i>
-        <i className="devicon-git-plain-wordmark colored icon-hard dark:bg-amber-50"></i>
+        <i class="devicon-csharp-plain-wordmark colored icon-hard dark:bg-white"></i>
+        <i class="devicon-dotnetcore-plain colored icon-hard dark:bg-white"></i>
+        <i className="devicon-react-plain colored icon-hard dark:bg-white"></i>
+        <i className="devicon-nextjs-original-wordmark icon-hard dark:bg-white"></i>
+        <i className="devicon-tailwindcss-original colored icon-hard dark:bg-white"></i>
+        <i class="devicon-bootstrap-plain colored icon-hard dark:bg-white"></i>
+        <i className="devicon-microsoftsqlserver-plain-wordmark colored icon-hard dark:bg-white"></i>
+        <i className="devicon-postgresql-plain-wordmark colored icon-hard dark:bg-white"></i>
+        <i className="devicon-github-original-wordmark colored icon-hard dark:bg-white"></i>
+        <i className="devicon-git-plain-wordmark colored icon-hard dark:bg-white"></i>
       </div>
     </section>
   );
