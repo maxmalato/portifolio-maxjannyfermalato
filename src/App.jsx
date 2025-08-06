@@ -19,7 +19,7 @@ function App() {
       <HardSkill/>
       <SoftSkill/>
       <Projects/>
-      <FeedbackList/>
+      {/* <FeedbackList/> */}
       <Footer/>
     </div>
   )

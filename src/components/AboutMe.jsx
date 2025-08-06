@@ -8,12 +8,9 @@ const AboutMe = () => {
         <div className="transition hover:border-orange-600 lg:border-l-4 lg:pl-4 flex flex-col gap-3 mt-5">
           <p className="indent-8 text-justify lg:indent-0 dark:text-white">
             <span className="text-orange-600 font-bold text-2xl">S</span>ou
-            Maxjannyfer, mais conhecido como Max. Tenho 31 anos, sou casado com a
+            Maxjannyfer, mais conhecido como Max. Tenho 32 anos, sou casado com a
             Carol e pai do Davi. Sou um desenvolvedor web em constante evolução,
-            focado no front-end com React, mas também explorando o back-end para
-            ampliar minhas habilidades. Tenho experiência prática com integração
-            de APIs e estou sempre buscando aprimorar meus conhecimentos em todo o
-            espectro do desenvolvimento web.
+            focado em C# e .NET, mas também tenho experiência em React.
           </p>
           <p className="indent-8 text-justify lg:indent-0 dark:text-white">
             <span className="text-orange-600 font-bold text-2xl">A</span>ntes de

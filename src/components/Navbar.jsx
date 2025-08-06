@@ -36,7 +36,7 @@ const Navbar = () => {
                     <a href="#aboutMe" className="hover:text-orange-400 dark:text-white" onClick={() => setIsAsideVisible(false)}>Sobre Mim</a>
                     <a href="#skills " className="hover:text-orange-400 dark:text-white" onClick={() => setIsAsideVisible(false)}>Habilidades</a>
                     <a href="#projects" className="hover:text-orange-400 dark:text-white" onClick={() => setIsAsideVisible(false)}>Projetos</a>
-                    <a href="#feedbacks" className="hover:text-orange-400 dark:text-white" onClick={() => setIsAsideVisible(false)}>Comentários</a>
+                    {/* <a href="#feedbacks" className="hover:text-orange-400 dark:text-white" onClick={() => setIsAsideVisible(false)}>Comentários</a> */}
                 </nav>
 
                 
