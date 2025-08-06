@@ -4,8 +4,22 @@ import cadastroUsuarioImage from "../assets/images/cadastro-usuario.png";
 import previsaTempoImage from "../assets/images/previsao-tempo.png";
 import galleryImage from "../assets/images/gallery.png";
 import montiImage from "../assets/images/monti.png";
+import duoRico from "../assets/images/duo-rico.png";
 
 const projects = [
+    {
+        title: "Duo Rico",
+        description: "Aplicativo de finanças pessoais para controle de gastos.",
+        image: duoRico,
+        demoLink: "https://github.com/maxmalato/DuoRico",
+        codeLink: "https://github.com/maxmalato/DuoRico",
+        HardSkills: [
+            { icon: "devicon-csharp-plain colored" },
+            { icon: "devicon-dotnetcore-plain colored" },
+            { icon: "devicon-bootstrap-plain colored" },
+            { icon: "devicon-postgresql-plain colored" },
+        ],
+    },
     {
         title: "Assinatura Digital",
         description: "Crie uma assinatura digital para o seu e-mail.",
@@ -26,7 +40,7 @@ const projects = [
         codeLink: "https://github.com/maxmalato/monti",
         HardSkills: [
             { icon: "devicon-typescript-plain colored" },
-            { icon: "devicon-nextjs-plain" },
+            { icon: "devicon-nextjs-plain colored" },
             { icon: "devicon-tailwindcss-original colored" },
         ],
     },
@@ -52,7 +66,7 @@ const projects = [
             { icon: "devicon-javascript-plain colored" },
             { icon: "devicon-react-original colored" },
             { icon: "devicon-tailwindcss-original colored" },
-            { icon: "devicon-axios-plain" },
+            { icon: "devicon-axios-plain colored" },
         ]
     },
     {
@@ -65,9 +79,9 @@ const projects = [
             { icon: "devicon-javascript-plain colored" },
             { icon: "devicon-react-original colored" },
             { icon: "devicon-nodejs-plain colored" },
-            { icon: "devicon-axios-plain" },
-            { icon: "devicon-prisma-original" },
-            { icon: "devicon-express-original" }
+            { icon: "devicon-axios-plain colored" },
+            { icon: "devicon-prisma-original colored" },
+            { icon: "devicon-express-original colored" }
         ]
     },
     {
@@ -104,8 +118,8 @@ const ProjectCard = ({ title, description, image, demoLink, codeLink, HardSkills
                 <div className="border-t-2 border-gray-300 dark:border-gray-700">
                     <ul className="flex justify-center gap-3 p-2">
                         {HardSkills && HardSkills.map((skill, index) => (
-                            <div key={index}>
-                                <i className={`${skill.icon} text-2xl dark:text-white`}></i>
+                            <div key={index} className="my-2">
+                                <i className={`${skill.icon} text-2xl dark:bg-amber-50 border p-1 rounded-md`}></i>
                             </div>
                         ))}
                     </ul>
