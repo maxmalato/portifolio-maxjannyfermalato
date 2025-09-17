@@ -5,8 +5,22 @@ import previsaTempoImage from "../assets/images/previsao-tempo.png";
 import galleryImage from "../assets/images/gallery.png";
 import montiImage from "../assets/images/monti.png";
 import duoRico from "../assets/images/duo-rico.png";
+import ongGabriel from "../assets/images/ong-gabriel.png";
 
 const projects = [
+    {
+        title: "ONG Gabriel",
+        description: "Plataforma de atendimento psicológico para pacientes (Em desenvolvimento).",
+        image: ongGabriel,
+        demoLink: "https://onggabriel.com/",
+        codeLink: "https://github.com/usrmaia/ong-gabriel",
+        HardSkills: [
+            { icon: "devicon-typescript-plain colored" },
+            { icon: "devicon-nextjs-plain colored" },
+            { icon: "devicon-tailwindcss-original colored" },
+            { icon: "devicon-prisma-original colored" },
+        ],
+    },
     {
         title: "Duo Rico",
         description: "Aplicativo de finanças pessoais para controle de gastos.",
