@@ -6,8 +6,21 @@ import galleryImage from "../assets/images/gallery.png";
 import montiImage from "../assets/images/monti.png";
 import duoRico from "../assets/images/duo-rico.png";
 import ongGabriel from "../assets/images/ong-gabriel.png";
+import DGT from "../assets/images/dgt.png";
 
 const projects = [
+    {
+        title: "DGT",
+        description: "Central de ferramenta para geração e consulta de dados.",
+        image: DGT,
+        demoLink: "https://dgt-data.netlify.app/",
+        codeLink: "https://github.com/maxmalato/dev-tools",
+        HardSkills: [
+            { icon: "devicon-react-original colored" },
+            { icon: "devicon-typescript-plain colored" },
+            { icon: "devicon-tailwindcss-original colored" },
+        ],
+    },
     {
         title: "ONG Gabriel",
         description: "Plataforma de atendimento psicológico para pacientes (Em desenvolvimento).",
