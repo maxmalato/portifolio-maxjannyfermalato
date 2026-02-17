@@ -7,8 +7,22 @@ import montiImage from "../assets/images/monti.png";
 import duoRico from "../assets/images/duo-rico.png";
 import ongGabriel from "../assets/images/ong-gabriel.png";
 import DGT from "../assets/images/dgt.png";
+import ScreenSound from "../assets/images/screensound.png";
 
 const projects = [
+    {
+        title: "ScreenSound",
+        description: "Gestão de catálogos musicais, avaliação de artistas e classificação de gêneros.",
+        image: ScreenSound,
+        demoLink: "https://github.com/maxmalato/ScreenSound",
+        codeLink: "https://github.com/maxmalato/ScreenSound",
+        HardSkills: [
+            { icon: "devicon-csharp-plain colored" },
+            { icon: "devicon-dotnetcore-plain colored" },
+            { icon: "devicon-microsoftsqlserver-plain colored" },
+            { icon: "devicon-blazor-original colored" },
+        ],
+    },
     {
         title: "DGT",
         description: "Central de ferramenta para geração e consulta de dados.",

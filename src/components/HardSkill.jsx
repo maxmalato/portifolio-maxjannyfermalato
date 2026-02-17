@@ -8,6 +8,7 @@ const HardSkill = () => {
         Habilidades tecnológicas
       </h3>
       <div className="flex flex-wrap gap-2 justify-center mt-5 lg:justify-end lg:border-r-4 lg:pr-4 transition hover:border-orange-600 lg:dark:border-slate-100">
+        <i className="devicon-blazor-original colored icon-hard dark:bg-white"></i>
         <i class="devicon-csharp-plain-wordmark colored icon-hard dark:bg-white"></i>
         <i class="devicon-dotnetcore-plain colored icon-hard dark:bg-white"></i>
         <i className="devicon-react-plain colored icon-hard dark:bg-white"></i>
