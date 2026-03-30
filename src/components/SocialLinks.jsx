@@ -1,4 +1,4 @@
-import curriculo from "../assets/documents/curriculo-maxjannyfer-malato.pdf";
+import curriculo from "../assets/documents/curriculo-maxjannyfer.pdf";
 
 const SocialLinks = () => {
     return (
