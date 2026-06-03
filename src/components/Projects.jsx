@@ -1,5 +1,4 @@
 import signatureImage from "../assets/images/signature.png";
-import previsaTempoImage from "../assets/images/previsao-tempo.png";
 import galleryImage from "../assets/images/gallery.png";
 import montiImage from "../assets/images/monti.png";
 import duoRico from "../assets/images/duo-rico.png";
@@ -7,6 +6,7 @@ import ongGabriel from "../assets/images/ong-gabriel.png";
 import DGT from "../assets/images/dgt.png";
 import ScreenSound from "../assets/images/screensound.png";
 import duoRicoPro from "../assets/images/duorico-pro.png";
+import atmos from "../assets/images/atmos.png";
 
 const projects = [
   {
@@ -116,16 +116,16 @@ const projects = [
     ],
   },
   {
-    title: "Previsão do Tempo",
+    title: "Atmos",
     description:
       "Pesquise sobre sua cidade para saber como está o seu clima em tempo real.",
-    image: previsaTempoImage,
-    demoLink: "https://maxmalato.github.io/previsao-tempo/",
-    codeLink: "https://github.com/maxmalato/previsao-tempo",
+    image: atmos,
+    demoLink: "https://v0-previsao-do-tempo-app.vercel.app/",
+    codeLink: "https://github.com/maxmalato/atmos",
     HardSkills: [
-      { icon: "devicon-html5-plain colored" },
-      { icon: "devicon-css3-plain colored" },
-      { icon: "devicon-javascript-plain colored" },
+      { icon: "devicon-typescript-plain colored" },
+      { icon: "devicon-nextjs-plain colored" },
+      { icon: "devicon-tailwindcss-original colored" },
     ],
   },
 ];
