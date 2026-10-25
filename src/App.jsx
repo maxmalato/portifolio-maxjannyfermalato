@@ -1,6 +1,5 @@
 import './App.css'
 import AboutMe from './components/AboutMe'
-import FeedbackList from './components/FeedbackList'
 import Footer from './components/Footer'
 import HardSkill from './components/HardSkill'
 import Header from './components/Header'
@@ -19,7 +18,6 @@ function App() {
       <HardSkill/>
       <SoftSkill/>
       <Projects/>
-      {/* <FeedbackList/> */}
       <Footer/>
     </div>
   )
