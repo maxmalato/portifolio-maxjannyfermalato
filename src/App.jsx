@@ -1,4 +1,3 @@
-import './App.css'
 import AboutMe from './components/AboutMe'
 import Footer from './components/Footer'
 import HardSkill from './components/HardSkill'
