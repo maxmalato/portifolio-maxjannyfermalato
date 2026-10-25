@@ -10,7 +10,7 @@ const AboutMe = () => {
 
       <div className="transition hover:border-brand lg:border-l-4 lg:pl-4 flex flex-col gap-3 mt-5">
         <p className={paragraphClass}>
-          Olá, sou o Max, Desenvolvedor Fullstack Júnior com foco em .NET e React.
+          Olá, sou o Max, Desenvolvedor Fullstack com foco em .NET e React.
         </p>
         <p className={paragraphClass}>
           Atuo no time de desenvolvimento da minha empresa atual, onde construo e mantenho APIs RESTful com C#, .NET, Entity Framework Core e SQL Server, aplicando princípios de Domain-Driven Design (DDD), além de interfaces dinâmicas e tipadas com React e TypeScript.
