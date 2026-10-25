@@ -10,16 +10,19 @@ const AboutMe = () => {
 
       <div className="transition hover:border-brand lg:border-l-4 lg:pl-4 flex flex-col gap-3 mt-5">
         <p className={paragraphClass}>
-          Olá, sou o Max, Desenvolvedor FullStack.
+          Olá, sou o Max, Desenvolvedor Fullstack Júnior com foco em .NET e React.
         </p>
         <p className={paragraphClass}>
-          Com uma base sólida de mais de 8 anos em Suporte e Análise de TI, desenvolvi uma paixão não apenas por resolver problemas, mas por construir as soluções do zero. Hoje, essa evolução já é a realidade do meu dia a dia: na minha empresa atual, divido minha jornada entre garantir a estabilidade do suporte sistêmico e atuar no time de desenvolvimento, construindo APIs robustas com C# (.NET, DDD) e interfaces dinâmicas com React e TypeScript.
+          Atuo no time de desenvolvimento da minha empresa atual, onde construo e mantenho APIs RESTful com C#, .NET, Entity Framework Core e SQL Server, aplicando princípios de Domain-Driven Design (DDD), além de interfaces dinâmicas e tipadas com React e TypeScript.
         </p>
         <p className={paragraphClass}>
-          Movido pelo desejo de gerar impacto, atuei como desenvolvedor frontend voluntário na Pipoca Ágil. Fiz parte da squad Popcorners, onde desenvolvemos a plataforma para a ONG GABRIEL, uma iniciativa de prevenção ao suicídio que conecta pacientes e psicólogos. Durante o projeto, utilizei Next.js, TailwindCSS e Scrum como framework, estilização e metodologia ágil, respectivamente.
+          Cheguei ao desenvolvimento depois de mais de 8 anos em Suporte e Análise de TI. Essa base me deu visão sistêmica do negócio, facilidade para diagnosticar problemas em produção e proximidade com quem usa o sistema no dia a dia — algo que levo para cada solução que construo.
         </p>
         <p className={paragraphClass}>
-          Minha abordagem profissional é marcada pela visão sistêmica, atenção aos detalhes e um forte senso de trabalho em equipe. Fora do código, sou cristão, baixista, casado e pai. Gosto de passar o tempo com minha família, seja na igreja ou assistindo a um bom filme.
+          Também atuei como desenvolvedor frontend voluntário na Pipoca Ágil, na squad Popcorners, construindo a plataforma da ONG GABRIEL — uma iniciativa de prevenção ao suicídio que conecta pacientes e psicólogos — com Next.js, TailwindCSS e Prisma, sob Scrum e com code review no GitHub.
+        </p>
+        <p className={paragraphClass}>
+          Minha abordagem é marcada pela atenção aos detalhes, pelo trabalho em equipe e pela vontade constante de aprender. Fora do código, sou baixista e gosto de passar o tempo com minha família assistindo a um bom filme.
         </p>
       </div>
     </section>
